@@ -1,0 +1,68 @@
+.indexPage{
+  width:750rpx;
+  background:linear-gradient(white, #E6E6F2);
+}
+
+
+swiper {
+    height: 500rpx;
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+  position: relative;
+}
+.swiper-container .swiper{
+  height: 500rpx;
+}
+.swiper-container .swiper .img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/****相册   相机********/
+.nav{
+  width:750rpx;
+  height:260rpx;
+}
+/*相册*/
+#photoAlbum{
+  width:375rpx;
+  float:left;
+}
+#photoAlbum_img{
+  width:150rpx;
+  height:150rpx;
+  padding-left:125rpx;
+  padding-top:50rpx;
+}
+/*相机*/
+#takePhoto{
+  width:375rpx;
+  float:left;
+}
+#takePhoto_img{
+  width:150rpx;
+  height:150rpx;
+  padding-left:125rpx;
+  padding-top:50rpx;
+}
+
+/*导航-文字*/
+#nav_word{
+  width:380rpx;
+  height: 10%;
+  font-weight: 600;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  text-align: center;
+}
+
+/*小程序介绍*/
+#introduce{
+  width:750rpx;
+  height:175px;
+  position: absolute;
+}
