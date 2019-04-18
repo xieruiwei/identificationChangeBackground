@@ -11,16 +11,16 @@
 ## 作品效果图 ##
  
 
-首页
+<br>首页</br>
 ![](https://i.imgur.com/Qbs7BSD.png)
 
-相机拍照&图库选择
+<br>相机拍照&图库选择</br>
 ![](https://i.imgur.com/VIWKixe.png)
 
-是否美颜&选择背景颜色&选择尺寸
+<br>是否美颜&选择背景颜色&选择尺寸</br>
 ![](https://i.imgur.com/UuGmeaW.png)
 
-保存,下载
+<br>保存,下载</br>
  ![](https://i.imgur.com/AAuHjBN.png)
 
 
