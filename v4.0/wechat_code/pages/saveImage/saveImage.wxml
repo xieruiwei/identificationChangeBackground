@@ -1,0 +1,16 @@
+
+<view id='allPage' style="height:{{phone_height}};">
+  <view id='save' style="padding-top:{{matrix_margin_top}};">
+    <view id='face_white'>
+      <view id='face_background' style="background:rgb({{backgroundColor_red}},{{backgroundColor_green}},{{backgroundColor_blue}});">
+        <image id='face_img' mode="aspectFill" src='{{src}}'></image>
+      </view>
+    </view>
+    <image id='save_img' src='../image/saveImage.png'></image>
+    <view id='save_word' bindtap='downloadImage'>点击保存</view>
+  </view>
+</view>
+<loading hidden="{{loadingHidden}}">
+保存中....
+</loading>
+

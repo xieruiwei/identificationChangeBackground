@@ -1,0 +1,107 @@
+
+
+  <view id='usrChoice' style="height:{{phone_height}};">
+  
+    <view id='ImageAndContent' style="height:{{phone_height_half}};">
+      <view style="width:750rpx; height:{{img_height}};padding-top:30rpx;display:flex; justify-content:center; align-items:center;">
+        <view id="background_white" style='width:{{bw}};height:{{bh}};display:flex; justify-content:center; align-items:center;'>
+          <view id="background_change" style="background:rgb({{backgroundColor_red}},{{backgroundColor_green}},{{backgroundColor_blue}});width:{{imgw}};height:{{imgh}};display:flex; justify-content:flex-end; align-items:flex-end;">
+            <image id="_img" style="width:{{imgw}};height:{{imgh}};" mode="aspectFill" src="{{imgPath}}" binderror='loadimage'></image>
+          </view>
+        </view>
+      </view>
+      <view id='usrChoiceContent'>{{meiyanChoice}}{{usrChoiceContent}}</view>
+    </view>
+
+    <view id='colorAndSize' style="height:{{phone_height_half}};">
+      <view id='choiceColor'>选择颜色</view>
+      <view class='c_1' bindtap="change_circle_1">
+          <view class='circle' id='circle_1' style="width:{{circle[0].width}};height:{{circle[0].height}};margin-top:{{circle[0].margin_top}};box-shadow:{{circle[0].box_shadow}};"></view>
+          <view class='word'>原图</view>
+      </view>
+      <view class='c_1' bindtap="change_circle_2">
+          <view class='circle' id='circle_2' style="width:{{circle[1].width}};height:{{circle[1].height}};margin-top:{{circle[1].margin_top}};box-shadow:{{circle[1].box_shadow}};"></view>
+          <view class='word'>美颜</view>
+      </view>
+      <view class='c_1' bindtap="change_circle_3">
+          <view class='circle' id='circle_3' style="width:{{circle[2].width}};height:{{circle[2].height}};margin-top:{{circle[2].margin_top}};box-shadow:{{circle[2].box_shadow}};"></view>
+          <view class='word'>白色</view>
+      </view>
+      <view class='c_1' bindtap="change_circle_4">
+          <view class='circle' id='circle_4' style="width:{{circle[3].width}};height:{{circle[3].height}};margin-top:{{circle[3].margin_top}};box-shadow:{{circle[3].box_shadow}};"></view>
+          <view class='word'>蓝色</view>
+      </view>
+      <view class='c_1' bindtap="change_circle_5">
+          <view class='circle' id='circle_5' style="width:{{circle[4].width}};height:{{circle[4].height}};margin-top:{{circle[4].margin_top}};box-shadow:{{circle[4].box_shadow}};"></view>
+          <view class='word'>红色</view>
+      </view>
+
+      <view id='choiceSize'>选择尺寸</view>
+
+      <scroll-view scroll-x="true" scroll-with-animation="true" style="white-space:nowrap;display:flex;height:{{scroll_height}};">
+        <view class='matrix' bindtap='matrix_0' style="margin-top:{{matrix[0].margin_top}};margin-bottom:{{matrix[0].margin_bottom}};box-shadow:{{matrix[0].box_shadow}};">
+          <image class='img' id='img_1' src='{{v2_3_img}}'></image>
+          <view class='sizeName'>英语四六级</view>
+          <view class='size'>144*192px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_1' style="margin-top:{{matrix[1].margin_top}};margin-bottom:{{matrix[1].margin_bottom}};box-shadow:{{matrix[1].box_shadow}};">
+          <image class='img' id='img_1' src='{{v2_4_img}}'></image>
+          <view class='sizeName'>计算机等级.</view>
+          <view class='size'>144*192px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_2' style="margin-top:{{matrix[2].margin_top}};margin-bottom:{{matrix[2].margin_bottom}};box-shadow:{{matrix[2].box_shadow}};">
+          <image class='img' id='img_1' src='{{v2_2_img}}'></image>
+          <view class='sizeName'>驾驶证、驾照</view>
+          <view class='size'>144*192px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_3' style="margin-top:{{matrix[3].margin_top}};margin-bottom:{{matrix[3].margin_bottom}};box-shadow:{{matrix[3].box_shadow}};">
+          <image class='img' id='img_1' src='{{v1_1_img}}'></image>
+          <view class='sizeName'>小一寸</view>
+          <view class='size'>260x378px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_4' style="margin-top:{{matrix[4].margin_top}};margin-bottom:{{matrix[4].margin_bottom}};box-shadow:{{matrix[4].box_shadow}};">
+          <image class='img' id='img_1' src='{{v1_2_img}}'></image>
+          <view class='sizeName'>一寸</view>
+          <view class='size'>295x431px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_5' style="margin-top:{{matrix[5].margin_top}};margin-bottom:{{matrix[5].margin_bottom}};box-shadow:{{matrix[5].box_shadow}};">
+          <image class='img' id='img_1' src='{{v1_3_img}}'></image>
+          <view class='sizeName'>大一寸</view>
+          <view class='size'>390x567px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_6' style="margin-top:{{matrix[6].margin_top}};margin-bottom:{{matrix[6].margin_bottom}};box-shadow:{{matrix[6].box_shadow}};">
+          <image class='img' id='img_1' src='{{v1_4_img}}'></image>
+          <view class='sizeName'>小二寸</view>
+          <view class='size'>413x531px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_7' style="margin-top:{{matrix[7].margin_top}};margin-bottom:{{matrix[7].margin_bottom}};box-shadow:{{matrix[7].box_shadow}};">
+          <image class='img' id='img_1' src='{{v2_1_img}}'></image>
+          <view class='sizeName'>二寸</view>
+          <view class='size'>413x579px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_8' style="margin-top:{{matrix[8].margin_top}};margin-bottom:{{matrix[8].margin_bottom}};box-shadow:{{matrix[8].box_shadow}};">
+          <image class='img' id='img_1' src='{{v3_1_img}}'></image>
+          <view class='sizeName'>签证</view>
+          <view class='size'>531x531px</view>
+        </view>
+        <view class='matrix' bindtap='matrix_9' style="margin-top:{{matrix[9].margin_top}};margin-bottom:{{matrix[9].margin_bottom}};box-shadow:{{matrix[9].box_shadow}};">
+          <image class='img' id='img_1' src='{{v3_2_img}}'></image>
+          <view class='sizeName'>普通话水平.</view>
+          <view class='size'>390x567px</view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+  <button id="saveImg" bindtap="saveImg">合成并保存</button>
+
+<loading hidden="{{loadingHidden}}">
+AI智能生成中...
+</loading>
+<loading hidden="{{loadingHidden1}}">
+AI智能合成中...
+</loading>
+<loading hidden="{{loadingHidden2}}">
+美颜中...
+</loading>

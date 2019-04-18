@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8cbce",
+    "navigationBarTitleText": "证件智能拍",
+    "navigationBarTextStyle": "black"
+}

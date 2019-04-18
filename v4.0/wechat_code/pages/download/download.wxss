@@ -1,0 +1,117 @@
+/* pages/usrChiocePicture/usrChiocePicture.wxss */
+
+.download{
+  width:750rpx;
+  height:380rpx;
+  background:linear-gradient(white, #E6E6F2);
+}
+
+#background_1{
+  width:750rpx;
+  height:850rpx;
+  background:#5599FF;
+}
+
+#background_2{
+  width:660rpx;
+  height:750rpx;
+  background:white;
+  left:45rpx;
+  top:50rpx;   
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+}
+
+#background_3{
+  width:640rpx;
+  height:730rpx;
+  top:60rpx;
+  left:55rpx;
+  z-index: 2;
+  position: absolute;
+}
+
+/*提醒*/
+#show{
+  width:750rpx;
+  height:60rpx;
+  color:red;
+  top:810rpx;
+  font-weight: 600;
+  font-size: 80%;
+  z-index: 4;
+  position: absolute;
+  text-align: center;
+}
+
+#imageChange{
+  width:100%;
+  height:100%;
+}
+
+.b_3{
+  padding-top:30rpx;
+  width:750rpx;
+  height:60rpx;
+  padding-left:50rpx;
+  float:left;
+  font-weight: 600;
+}
+.b_4{
+  padding-top:10rpx;
+  width:750rpx;
+  height:60rpx;
+  padding-left:50rpx;
+  float:left;
+  font-weight: 600;
+}
+#target_img{
+  width:50rpx;
+  height:50rpx;
+  float:left;
+}
+/****保存   赞赏********/
+.nav{
+  width:750rpx;
+  height:160rpx;
+  float:left;
+}
+/*保存*/
+#save{
+  width:375rpx;
+  float:left;
+}
+#save_img{
+  width:100rpx;
+  height:100rpx;
+  padding-left:125rpx;
+}
+/*赞赏*/
+#money{
+  width:375rpx;
+  float:left;
+}
+#money_img{
+  width:100rpx;
+  height:100rpx;
+  padding-left:125rpx;
+}
+/*隐藏在赞赏上面的客服*/
+.service{
+  width:180rpx;
+  height:180rpx;
+  bottom:0px;
+  right:100rpx;
+  opacity:0;
+  position: absolute;
+}
+/*导航-文字*/
+#nav_word{
+  width:380rpx;
+  height: 10%;
+  font-weight: 600;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  text-align: center;
+}
+

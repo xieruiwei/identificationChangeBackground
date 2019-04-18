@@ -1,0 +1,78 @@
+.indexPage{
+  width:750rpx;
+  background:linear-gradient(white, #E6E6F2);
+}
+
+
+swiper {
+    height: 500rpx;
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+  position: relative;
+}
+.swiper-container .swiper{
+  height: 500rpx;
+}
+.swiper-container .swiper .img{
+  width: 100%;
+  height: 100%;
+}
+
+/****图像规格选择********/
+.choicePX{
+  width:750rpx;
+  height:650rpx;
+  background:linear-gradient(white, #E6E6F2);
+}
+.v1{
+  width:750rpx;
+  height:200rpx;
+  float:left;
+  padding-left: 55rpx;
+  padding-top: 30rpx;
+}
+#v1_1{
+  width:160rpx;
+  height:250rpx;
+  float:left;
+}
+.v2{
+  width:750rpx;
+  height:200rpx;
+  float:left;
+  padding-left: 55rpx;
+  padding-top: 10rpx;
+}
+#v2_1{
+  width:160rpx;
+  height:250rpx;
+  float:left;
+}
+.v3{
+  width:750rpx;
+  height:200rpx;
+  float:left;
+  padding-left: 55rpx;
+  padding-top: 10rpx;
+}
+#v3_1{
+  width:160rpx;
+  height:250rpx;
+  float:left;
+}
+#v_img{
+  width:120rpx;
+  height:120rpx;
+  padding-left: 20rpx;
+}
+#v_word{
+  font-size:70%;
+  text-align: center;
+}
+
+
+

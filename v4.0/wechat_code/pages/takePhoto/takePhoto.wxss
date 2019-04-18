@@ -1,0 +1,50 @@
+/* pages/newIndex/newIndex.wxss */
+
+#lunkuo{
+  width:750rpx;
+  height: 874rpx;
+}
+#infor{
+  width: 450rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  font-size: 80%;
+  font-weight: 600;
+  background:darkorange;
+  text-align: center;
+  color:white;
+  margin-top:20rpx;
+  margin-left: 150rpx;
+}
+#tuku{
+  width:100rpx;
+  height: 100rpx;
+  bottom:70rpx;
+  left:120rpx;
+  position: absolute;
+}
+#takePhoto{
+  width:150rpx;
+  height: 150rpx;
+  bottom:50rpx;
+  left:300rpx;
+  background:#888888;
+  border: 10rpx solid white;
+  border-radius: 100%;
+  position: absolute;
+}
+#fanzhuan{
+  width:100rpx;
+  height: 100rpx;
+  bottom:70rpx;
+  right:120rpx;
+  position: absolute;
+}
+
+/*拍照或者上传的图片*/
+#src{
+  width:750rpx;
+  top:0rpx;
+  left:0rpx;
+  position: absolute;
+}

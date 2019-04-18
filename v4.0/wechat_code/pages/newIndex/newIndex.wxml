@@ -1,0 +1,28 @@
+
+
+<swiper class="swiper" autoplay="true" interval="1000" duration="500" circular="true" style="width:100%;height:{{phone_height}};">
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" class="swiper" bindtap="swipclick" style="width:100%;height:{{phone_height}};" />
+      </swiper-item>
+    </block>
+</swiper>
+
+<image id='haibao' mode='scaleToFill' src='../image/haibao.png' style="height:{{phone_height}};" bindtap="takePhoto"></image>
+<image id='model' src='../image/model.png' style="bottom:{{model_bottom}};"></image>
+<!--view  >点击屏幕拍摄</view!-->
+
+<view id='matrix' style="top:{{matrix_margin_top}};z-index:{{m_z_index}};">
+  <view id='matrix_model'>
+    <image id='matrix_img' src='../image/matrix_model.png'></image>
+  </view>
+  
+  <view id='matrix_word_1'>符合以下要求的照片效果更好哒</view>
+  <view id='matrix_word_2'>1.整理拍摄</view>
+  <view id='matrix_word_3'>2.白墙背景</view>
+  <view id='matrix_word_4'>3.深色衣服</view>
+  <view id='matrix_word_5'>4.发型光滑、不乱翘</view>
+  <view id='matrix_word_6'>5.头顶和两侧预留足够空间</view>
+
+  <view id='know' bindtap='know'>我知道了</view>
+</view>

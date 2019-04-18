@@ -1,0 +1,18 @@
+
+<view id="changeToColor"  style="height:{{phone_height}};">
+  <image id="imageChange" mode="aspectFit" src="{{imageChangePath}}"></image>
+
+  <view id="changeToRed" bindtap="setRed"></view>
+  <view id="changeToWhite" style="background:rgb({{colorChange1}},{{colorChange2}},{{colorChange3}});" bindtap="setWhite"></view>
+  <view id="changeToblue" bindtap="setBlue"></view>
+
+  <view id='colorChange'>
+      <slider  bindchanging="sliderColorChange" activeColor='#5599FF' max='1610' step="1" />
+      <view id="introduce_button">~.~按钮右滑变色【版本暂支持背景纯色,AI智能换底即将上线~】</view>
+      <view id="remark"></view>
+  </view>
+
+  <button id="downloadImage" bindtap="downloadImage">下载</button>
+</view>
+
+

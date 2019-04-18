@@ -1,0 +1,135 @@
+/* pages/usrChiocePicture/usrChiocePicture.wxss */
+
+.target{
+  width:750rpx;
+  height:380rpx;
+  background:linear-gradient(white, #E6E6F2);
+}
+#targetName{
+  width:750rpx;
+  height:100rpx;
+  padding-top:50rpx;
+  padding-left:50rpx;
+  font-weight:500;
+  font-size: 180%;
+}
+#targetWidth_Height{
+  width:750rpx;
+  height:60rpx;
+  padding-left:50rpx;
+  float:left;
+}
+#targetBackground{
+  width:750rpx;
+  height:60rpx;
+  padding-left:50rpx;
+  float:left;
+}
+#bingo{
+  width:300rpx;
+  height:100rpx;
+  float:left;
+  padding-left:50rpx;
+}
+#money{
+  width:350rpx;
+  height:70rpx;
+  float:left;
+}
+#target_img{
+  width:50rpx;
+  height:50rpx;
+  float:left;
+}
+#target_word{
+  font-size: 80%;
+  float:left;
+  padding-left:10rpx;
+}
+
+.word{
+  font-weight: 600;
+}
+
+/*隐藏在赞赏上面的客服*/
+.service{
+  width:750rpx;
+  height:60rpx;
+  opacity:0;
+  position: absolute;
+}
+.service1{
+  width:750rpx;
+  height:60rpx;
+  top:870rpx;
+  opacity:0;
+  position: absolute;
+}
+/**操作步骤**/
+#b_1{
+  width:750rpx;
+  height:60rpx;
+  float:left;
+  padding-left:50rpx;
+}
+#b_2{
+  width:750rpx;
+  height:60rpx;
+  float:left;
+  padding-left:100rpx;
+}
+.b_3{
+  padding-top:30rpx;
+  width:750rpx;
+  height:60rpx;
+  padding-left:50rpx;
+  float:left;
+  font-weight: 600;
+}
+.b_4{
+  padding-top:10rpx;
+  width:750rpx;
+  height:60rpx;
+  padding-left:50rpx;
+  float:left;
+  font-weight: 600;
+}
+
+/****相册   相机********/
+.nav{
+  width:750rpx;
+  height:220rpx;
+  float:left;
+}
+/*相册*/
+#photoAlbum{
+  width:375rpx;
+  float:left;
+  padding-top:20rpx;
+}
+#photoAlbum_img{
+  width:150rpx;
+  height:150rpx;
+  padding-left:125rpx;
+}
+/*相机*/
+#takePhoto{
+  width:375rpx;
+  float:left;
+  padding-top:20rpx;
+}
+#takePhoto_img{
+  width:150rpx;
+  height:150rpx;
+  padding-left:125rpx;
+}
+
+/*导航-文字*/
+#nav_word{
+  width:380rpx;
+  height: 10%;
+  font-weight: 600;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  text-align: center;
+}
+

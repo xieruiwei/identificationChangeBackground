@@ -1,0 +1,26 @@
+
+<view id="changeToColor"  style="height:{{phone_height}};">
+  <view id="background_1">
+  </view>
+  <view id="background_2">
+  </view>
+  <view id="background_3" style="background:{{backgroundColor}};">
+      <image id="imageChange" mode="aspectFit" src="{{serverPath}}"></image>
+  </view>
+  <view id="changeToImage" bindtap="setImage">原图</view>
+  <view id="changeToRed" bindtap="setRed"></view>
+  <view id="changeToWhite" bindtap="setWhite"></view>
+  <view id="changeToblue" bindtap="setBlue"></view>
+
+  <!--view id='colorChange'>
+      <slider  bindchanging="sliderColorChange" activeColor='#5599FF' max='1610' step="1" />
+      <view id="remark"></view>
+  </view-->
+
+  <button id="addImage" bindtap="addImage">合成</button>
+</view>
+
+<loading hidden="{{loadingHidden}}">
+ AI智能合成中...
+</loading>
+

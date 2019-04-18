@@ -1,0 +1,127 @@
+/*整个页面*/
+#usrChoice{
+  width:750rpx;
+ /** background:linear-gradient(white, #E6E6F2);**/
+  background:#E6E6F2;
+}
+
+/*用户图片 跟选择的尺寸*/
+#ImageAndContent{
+  width:750rpx;
+}
+#background_white{
+  background:white;
+  float: left;
+}
+#usrChoiceContent{
+  font-size:70%;
+  color:#887766;
+  padding-top:10rpx;
+  text-align: center;
+}
+
+/*颜色选择*/
+#choiceColor{
+  font-size: 90%;
+  width:600rpx;
+  padding-left:30rpx;
+}
+.c_1{
+  width:150rpx;
+  float: left;
+}
+.circle{
+  width:60rpx;
+  height: 60rpx;
+  margin-left:45rpx;
+  background:red;
+  border-radius: 100%;
+}
+.word{
+  font-size: 70%;
+  margin-top:10rpx;
+  text-align: center;
+}
+#circle_1{
+  background:black;
+  margin-top:25rpx;
+}
+#circle_2{
+  width:80rpx;
+  height:80rpx;
+  background:linear-gradient(	#F0E68C,#FF69B4,#90EE90,#E6E6F2);
+  margin-top:0rpx;
+  box-shadow: 20rpx 20rpx 10rpx #888888;
+}
+#circle_3{
+  background:white;
+  margin-top:25rpx;
+}
+#circle_4{
+  background:#5599FF;
+  margin-top:25rpx;
+}
+#circle_5{
+  background:red;
+  margin-top:25rpx;
+}
+
+/*尺寸选择*/
+#choiceSize{
+  font-size: 90%;
+  width:600rpx;
+  height:50rpx;
+  padding-left:30rpx;
+  padding-top:20rpx;
+  float: left;
+}
+.matrix{
+  width:150rpx;
+  height:200rpx;
+  margin-left:20rpx;
+  margin-top:50rpx;
+  background:white;
+  display: inline-block;
+}
+.img{
+  width:100rpx;
+  height:100rpx;
+  padding-top:20rpx;
+  padding-left:25rpx;
+  float:left;
+}
+.sizeName{
+  width:150rpx;
+  height:35rpx;
+  font-size:60%;
+  font-weight: 700;
+  text-align: center;
+  float:left;
+}
+.size{
+  width:150rpx;
+  height:35rpx;
+  font-size:60%;
+  font-weight: 700;
+  text-align: center;
+  float:left;
+}
+
+/*合成并保存*/
+#saveImg{
+  width:270rpx;
+  height:80rpx;
+  line-height:80rpx;
+  float:left;
+  bottom:20rpx;
+  left:225rpx;
+  position: absolute;
+  font-size:40rpx;
+  background:#5599FF;
+ /* background:linear-gradient(to right,	#F0E68C,#FF69B4,#90EE90,#E6E6F2);*/
+  box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+

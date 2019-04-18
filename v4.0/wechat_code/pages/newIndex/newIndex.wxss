@@ -1,0 +1,104 @@
+/* pages/newIndex/newIndex.wxss */
+
+.swiper{
+  width:750rpx;
+  position: absolute;
+  z-index: 2;
+}
+
+#haibao{
+  width:750rpx;
+  height: 500rpx;
+  position: absolute;
+  top:0px;
+  z-index:4;
+}
+#model{
+  width:450rpx;
+  height:583rpx;
+  left:146rpx;
+  position: absolute;
+  z-index:3;
+}
+/*弹窗提醒*/
+#matrix{
+  width:550rpx;
+  height: 800rpx;
+  left: 100rpx;
+  background: white;
+  position: absolute;
+  top:0rpx;
+  z-index: 1;
+}
+#matrix_model{
+  width:450rpx;
+  height:350rpx;
+  margin-left:50rpx;
+  margin-top:50rpx;
+  background:#E6E6F2;
+}
+#matrix_img{
+  width:300rpx;
+  height: 330rpx;
+  padding-left:75rpx;
+  padding-top:20rpx;
+}
+#matrix_word_1{
+  width:550rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  margin-top: 50rpx;
+  text-align: center;
+  font-size: 70%;
+}
+#matrix_word_2{
+  width:180rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  margin-left:50rpx;
+  font-size: 80%;
+  float: left;
+}
+#matrix_word_3{
+  width:270rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  font-size: 80%;
+  float:left;
+}
+#matrix_word_4{
+  width:180rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  margin-left:50rpx;
+  font-size: 80%;
+  float: left;
+}
+#matrix_word_5{
+  width:270rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  font-size: 80%;
+  float:left;
+}
+#matrix_word_6{
+  width:450rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  margin-left: 50rpx;
+  font-size: 80%;
+  float:left;
+}
+
+#know{
+  width:400rpx;
+  height:75rpx;
+  line-height: 75rpx;
+  margin-top:25rpx;
+  margin-left: 75rpx;
+  color: white;
+  background:blueviolet;
+  font-size: 80%;
+  text-align: center;
+  float:left;
+}

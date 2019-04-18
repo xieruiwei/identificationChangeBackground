@@ -1,0 +1,48 @@
+/*弹窗提醒*/
+#allPage{
+  width:750rpx;
+  background:linear-gradient(	#E6E6F2,#F0E68C,#FF69B4,#90EE90);
+}
+#save{
+  width:580rpx;
+  height: 900rpx;
+  margin-left: 85rpx;
+}
+#save_img{
+  width:580rpx;
+  height:750rpx;
+  box-shadow: 20rpx 5rpx 10rpx #888888;
+}
+#save_word{
+  width:580rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  background:white;
+  text-align: center;
+  color:#90EE90;
+  font-size: 100%;
+  font-weight: 600;
+  box-shadow: 20rpx 20rpx 10rpx #888888;
+}
+
+/*用户生成的图片*/
+#face_white{
+  width:140rpx;
+  height:190rpx;
+  margin-left:175rpx;
+  margin-top: 220rpx;
+  position: absolute;
+  background:white;
+  display:flex; 
+  justify-content:center; 
+  align-items:center;
+}
+#face_background{
+  width:130rpx;
+  height:180rpx;
+  background:red;
+}
+#face_img{
+  width:130rpx;
+  height:180rpx;
+}

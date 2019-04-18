@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/newIndex/newIndex",
+    "pages/saveImage/saveImage",
+    "pages/usrChoice/usrChoice",
+    "pages/takePhoto/takePhoto",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/download/download",
+    "pages/usrChiocePicture/usrChiocePicture",
+    "pages/bodyanalysis/bodyanalysis",
+    "pages/changeBackground/changeBackground"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "证件智能拍",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,57 @@
+
+<view class='target' style="height:{{phone_height}};">
+  <view id='targetName'>
+      <text>{{targetName}}</text>
+  </view>
+  <view id="bingo" bindtap="bingo">
+    <image id="target_img" src="{{bingo}}"></image>
+    <view id="target_word">小k.o提供服务</view>
+  </view>
+  <view id="money" bindtap="money">
+    <image id="target_img" src="{{money}}"></image>
+    <view id="target_word">赞赏、支持小k.o服务</view>
+    <button open-type="contact" class="service"></button>
+  </view>
+  <view id='targetWidth_Height'>
+      <text class="word">像数大小：{{targetWidth}}x{{targetHeight}}px</text>
+  </view>
+  <view id='targetBackground'>
+      <text class="word">背景颜色：蓝、白、红</text>
+  </view>
+
+
+  <view>
+    <view id="b_1" class="word">步骤说明：</view>
+    <view id="b_2" class="word">1._选择尺寸</view>
+    <view id="b_2" class="word">2._相册/相机</view>
+    <view id="b_2" class="word">3._AI智能人像抠图</view>
+    <view id="b_2" class="word">4._更换背景色</view>
+    <view id="b_2" class="word">5._AI智能合成</view>
+    <view id="b_2" class="word">6._下载</view>
+    <view class="b_3">
+      <image id="target_img" src="../image/love.png"></image>
+      <view>__推荐小程序给需要的朋友</view>
+    </view>
+    <view class="b_4">
+      <image id="target_img" src="../image/money1.png"></image>
+      <view>__赞赏、支持小k.o服务</view>
+      <button open-type="contact" class="service1"></button>
+    </view>
+  </view>
+  
+  <view class="nav">
+    <view id="photoAlbum" bindtap="getPhotoAlubum">
+      <image id="photoAlbum_img" src="{{photoAlbum_image}}"></image>
+      <view id="nav_word">相册</view>
+    </view>
+    <view id="takePhoto" bindtap="getTakePhoto">
+      <image id="takePhoto_img" src="{{takePhoto_image}}"></image>
+      <view id="nav_word">相机</view>
+    </view>
+  </view>
+
+</view>
+
+<loading hidden="{{loadingHidden}}">
+AI智能生成中(5~30秒左右)....
+</loading>

@@ -1,0 +1,35 @@
+
+<view class='download' style="height:{{phone_height}};">
+  <view id="background_1"> 
+     <view id="background_2" style='width:{{bw}};height:{{bh}};left:{{bl}}'></view>
+  </view>
+
+
+
+  <view id="background_3" style="background:{{backgroundColor}};width:{{imgw}};height:{{imgh}};left:{{imgl}}">
+      <image id="imageChange" mode="aspectFit" src="{{downloadPath}}" binderror='loadimage'  ></image>
+  </view>
+
+  <view id="show">如果没有显示，请返回重新合成，多按几次就能显示出来</view>
+  <view class="b_3">
+    <image id="target_img" src="../image/love.png"></image>
+      <view>__推荐小程序给需要的朋友</view>
+    </view>
+    <view class="b_4">
+      <image id="target_img" src="../image/money1.png"></image>
+    <view>__赞赏、支持小k.o服务</view>
+  </view>
+  <view class="nav">
+    <view id="save" bindtap="downloadImage" >
+      <image id="save_img" src="../image/save.png"></image>
+      <view id="nav_word">保存电子照</view>
+    </view>
+    <view id="money" bindtap="money">
+      <image id="money_img" src="../image/money2.png"></image>
+      <view id="nav_word">赞赏小k.o</view>
+    </view>
+      <button open-type="contact" class="service"></button>
+  </view>
+
+</view>
+

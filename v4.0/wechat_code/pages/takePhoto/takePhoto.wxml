@@ -1,0 +1,26 @@
+
+<camera
+  device-position="back"
+  flash="off"
+  binderror="error"
+  device-position="{{device_position}}"
+  style="width:750rpx; height:{{phone_height}};"
+>
+  <cover-view  id="infor">~站在白色墙拍摄效果最佳哦~</cover-view>
+  <cover-image id="lunkuo" mode="aspectFill" src="../image/lunkuo.png"/>
+  <cover-image id="tuku" bindtap="getPhotoAlubum" src="../image/tuku.png">图库</cover-image>
+  <cover-view  id="takePhoto" bindtap="takePhoto"></cover-view>
+  <cover-image id="fanzhuan" bindtap="fanzhuan" src="../image/fanzhuan.png">反向</cover-image>
+  <cover-image id="src" src="{{imageChangePath}}" style="width:750rpx; height:{{phone_height}};" hidden="{{loadingHidden}}"> </cover-image>
+  <loading hidden="{{loadingHidden}};">
+上传中....
+</loading>
+</camera>
+
+<loading hidden="{{loadingHidden}};">
+上传中....
+</loading>
+<loading hidden="{{loadingHidden1}}">
+上传失败，请查看网络连接是否正常....
+</loading>
+

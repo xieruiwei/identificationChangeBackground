@@ -1,0 +1,77 @@
+
+<view class="indexPage"  style="height:{{phone_height}};">
+  <view class="swiper-container">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item}}" class="img" bindtap="swipclick" />
+        </swiper-item>
+      </block>
+    </swiper>
+
+  </view>
+
+  <view class="choicePX">
+    <view class="v1">
+      <view id="v1_1" bindtap="v1_1">
+        <image id="v_img" src="{{v1_1_img}}"></image>
+        <view id="v_word">小一寸260x378px</view>
+      </view>
+      <view id="v1_1" bindtap="v1_2">
+        <image id="v_img" src="{{v1_2_img}}"></image>
+        <view id="v_word">一寸295x431px</view>
+      </view>
+      <view id="v1_1" bindtap="v1_3">
+        <image id="v_img" src="{{v1_3_img}}"></image>
+        <view id="v_word">大一寸390x567px</view>
+      </view>
+      <view id="v1_1" bindtap="v1_4">
+        <image id="v_img" src="{{v1_4_img}}"></image>
+        <view id="v_word">小二寸413x531px</view>
+      </view>
+    </view>
+    <view class="v2">
+      <view id="v2_1" bindtap="v2_1">
+        <image id="v_img" src="{{v2_1_img}}"></image>
+        <view id="v_word">二寸413x579px</view>
+      </view>
+      <view id="v2_1" bindtap="v2_2">
+        <image id="v_img" src="{{v2_2_img}}"></image>
+        <view id="v_word">驾驶证、驾照260x378px</view>
+      </view>
+      <view id="v2_1" bindtap="v2_3">
+        <image id="v_img" src="{{v2_3_img}}"></image>
+        <view id="v_word">英语四六级144x192px</view>
+      </view>
+      <view id="v2_1" bindtap="v2_4">
+        <image id="v_img" src="{{v2_4_img}}"></image>
+        <view id="v_word">全国计算机等级...144x192px</view>
+      </view>
+    </view>
+    <view class="v3">
+      <view id="v3_1" bindtap="v3_1">
+        <image id="v_img" src="{{v3_1_img}}"></image>
+        <view id="v_word">签证531x531px</view>
+      </view>
+      <view id="v3_1" bindtap="v3_2">
+        <image id="v_img" src="{{v3_2_img}}"></image>
+        <view id="v_word">普通话水平测...390x567px</view>
+      </view>
+    </view>
+  </view>
+
+  <!--view class="nav">
+    <view id="photoAlbum" bindtap="getPhotoAlubum">
+      <image id="photoAlbum_img" src="{{photoAlbum_image}}"></image>
+      <view id="nav_word">相册</view>
+    </view>
+    <view id="takePhoto" bindtap="getTakePhoto">
+      <image id="takePhoto_img" src="{{takePhoto_image}}"></image>
+      <view id="nav_word">相机</view>
+    </view>
+  </view-->
+  
+<!--image id='introduce' src='../image/introduce.jpg' mode="aspectFit"></image-->
+  
+</view>

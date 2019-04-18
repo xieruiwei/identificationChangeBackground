@@ -1,0 +1,80 @@
+#changeToColor{
+  width:750rpx;
+  background:linear-gradient(white, #E6E6F2);
+}
+
+#imageChange{
+  width:750rpx;
+  height:800rpx;
+  text-align: center;
+}
+
+#changeToRed{
+  width:100rpx;
+  height:100rpx;
+  background:red;
+  margin-left:125rpx;
+  margin-top:5rpx;
+  float:left;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 100%;
+}
+
+#changeToWhite{
+  width:100rpx;
+  height:100rpx;
+  margin-left:100rpx;
+  margin-top:5rpx;
+  float:left;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 100%;
+}
+
+#changeToblue{
+  width:100rpx;
+  height:100rpx;
+  background:blue;
+  margin-left:100rpx;
+  margin-top:5rpx;
+  float:left;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 100%;
+}
+
+#colorChange{
+  width:700rpx;
+  height:20rpx;
+  float:left;
+  margin-left:20rpx;
+  border-top-left-radius:30%;
+  border-bottom-left-radius:30%;
+  border-top-right-radius:30%;
+  border-bottom-right-radius:30%;
+  background-image: -webkit-linear-gradient(left, white 5%,Red 10%, orange 15%, yellow 30%, 
+  green 30%, blue , indigo, purple , black);
+  margin-top:30rpx;
+}
+
+slider{
+  width:650rpx;
+  height:10rpx;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#introduce_button{
+  font-size:25rpx;
+  font-weight:900;
+  text-align: center;
+}
+
+#downloadImage{
+  width:300rpx;
+  height:100rpx;
+  line-height:100rpx;
+  float:left;
+  margin-top:80rpx;
+  margin-left:225rpx;
+  font-size:40rpx;
+  background:#5599FF;
+  box-shadow: 10px 10px 5px #888888;
+}
